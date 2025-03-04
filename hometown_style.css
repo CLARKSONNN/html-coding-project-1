@@ -38,7 +38,7 @@
 
 }
 
-
+/*image header meant to overlap with the image */
 .img_heading{
     background-color:#5f4c4c;
     color:white;
@@ -50,6 +50,7 @@
     position:relative;
 }
 
+/*image with a small border matching the heading*/
 img{
     width: 500px;
     margin: 10px;
