@@ -1,11 +1,46 @@
+/* styles the page banner to have a blue background an white text */
 .pagebanner{
-    background-color: lightskyblue;
+    padding: 20px;
+    background-color:rgb(106, 210, 106);
     text-align: center;
+    color: white;
+    font-size: 30px;
 }
 
-.mainbanner{
-    background-color: green;
-    text-align: center;
-    font-size: 40px;
+/*styles the back ground of the nav bar*/
+.navbar{
+    background-color:lightslategray;
+    padding: 2px;
+}
 
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+
+/*styles the links in the nav bar to be white and not underlined*/
+.navbar a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 16px;
+    
+}
+/*strles the background to change darker when hovering over*/
+.navbar a:hover {
+    background-color:darkslategray;
+
+
+/*styles the defult image to have a white boder and to be 500px wide*/
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
 }
