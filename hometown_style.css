@@ -1,6 +1,6 @@
 /* styles the page banner to have a blue background an white text */
 .pagebanner{
-    font-family:sans-serif;;
+    font-family:sans-serif;
     padding: 20px;
     background-color:rgb(106, 210, 106);
     text-align: center;
@@ -9,25 +9,25 @@
 }
 
 /*styles the back ground of the nav bar*/
-.navbar{
+.c_navbar{
     background-color:#5f4c4c;
     overflow: hidden;
     position:sticky;
     top: 0;
 }
 
-.navbar ul{
+.c_navbar ul{
     list-style-type: none;
     margin:0;
     padding:0;
 }
 
-.navbar li{
+.c_navbar li{
     float: left;
 }
 
 /*styles the links in the nav bar to be white and not underlined*/
-.navbar a{
+.c_navbar a{
     display: block;
     color:white;
     text-decoration: none;
@@ -35,7 +35,7 @@
     
 }
 /*strles the background to change darker when hovering over*/
-.navbar a:hover {
+.c_navbar a:hover {
     background-color:#2f2626;
 
 }
@@ -112,4 +112,36 @@ body{
     text-decoration: underline;
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* css for the vistpage for overidning bootstrap */
+
+/*overidning the jumbotron style to look like my banner*/
+
+.B_pagebanner{
+    font-family:sans-serif;
+    background-color:rgb(106, 210, 106);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.B_navbar{
+    background-color:#5f4c4c;
+    overflow: hidden;
+    position:sticky;
+    top: 0;
+}
+
+.B_navbar a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding:18px 20px;
+}
+
+.B_navbar a:hover {
+    background-color:#2f2626;
 }
