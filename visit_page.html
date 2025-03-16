@@ -7,26 +7,52 @@
 
   <!--bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
   <!--own css-->
   <link rel="stylesheet" type="text/css" href="hometown_style.css">
 
 </head>
 <body>
-<div class="jumbotron B_pagebanner">
-    <h1>Westhill, Aberdeenshire</h1>
-    <p>Visit</p>
+<!--creates banner for the top of the page-->
+    <div class="pagebanner"> 
+        <h1>Westhill, Aberdeenshire</h1>
+        <p>Visit</p>
+    </div>
+
+<!--creates the top nav bar of the webpage used to navgate the webpages-->
+    <div class = c_navbar>
+        <ul>
+            <li><a href="town_homepage.html">Home</a></li>
+            <li><a href="History_page.html">History</a></li>
+            <li><a href="visit_page.html">Visit</a></li>
+        </ul>
+    </div>
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
 </div>
-
-<nav class="navbar sticky-top B_navbar">
-    <a href="town_homepage.html">Home</a>
-    <a href="History_page.html">History</a>
-    <a href="visit_page.html">Visit</a>
-</nav>
-
-
-
-
-
 </body>
 </html>

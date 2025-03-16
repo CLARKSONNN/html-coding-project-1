@@ -115,33 +115,3 @@ body{
 }
 
 /* css for the vistpage for overidning bootstrap */
-
-/*overidning the jumbotron style to look like my banner*/
-
-.B_pagebanner{
-    font-family:sans-serif;
-    background-color:rgb(106, 210, 106);
-    text-align: center;
-    color: white;
-    font-size: 30px;
-
-
-}
-
-.B_navbar{
-    background-color:#5f4c4c;
-    overflow: hidden;
-    position:sticky;
-    top: 0;
-}
-
-.B_navbar a{
-    display: block;
-    color:white;
-    text-decoration: none;
-    padding:18px 20px;
-}
-
-.B_navbar a:hover {
-    background-color:#2f2626;
-}
