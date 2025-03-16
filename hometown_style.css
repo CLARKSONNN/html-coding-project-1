@@ -106,3 +106,10 @@ body{
     background-color:#2f2626;
 
 }
+
+.footer p {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
