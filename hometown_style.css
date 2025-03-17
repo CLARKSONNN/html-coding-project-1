@@ -60,7 +60,7 @@ img{
     border:3px solid #5f4c4c;
 }
 
-/*img fade in effect*/
+/*img fade in effect code adapted from (https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slidebottom)*/
 .img_fade_section {
     position: relative;
     width: 500px;
@@ -71,6 +71,7 @@ img{
     height: auto;
   }
   
+  /*the image overlay*/
   .img_overlay {
     position: absolute;
     bottom: 0;
@@ -86,6 +87,7 @@ img{
     height: 100%;
   }
   
+  /*the styling for text thats overlayed on to the image*/
   .overlay_text {
     white-space: nowrap; 
     color: white;
@@ -98,7 +100,9 @@ img{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+/*end of adaption*/
 
+/*styling of the map to have brown boder and to overlap with image header*/
 .map{
     width: 429px;
     margin: 10px;
@@ -106,16 +110,18 @@ img{
     border:3px solid #5f4c4c;
 }
 
+/*styling of the main content*/
 .content{
     margin:10px
 }
 
-
+/*styling of the body*/
 body{
     background-color:#f5f5f5 ;
     margin: 0%;
 }
 
+/*styling of the footer to have a brown background and white text*/
 .footer{
     left: 0;
     bottom: 0;
@@ -124,6 +130,7 @@ body{
     color: white;
 }
 
+/*styling of the links to have no decoration and to be white plus to be blocked*/
 .footer a{
     display: block;
     color:white;
@@ -131,21 +138,23 @@ body{
     padding: 18px 20px;
 }
 
+/*styling of the list of links in the footer removed all list styling*/
 .footer ul {
     list-style-type: none;
     margin:0;
     padding:0;
   }
-
+/*center the list*/
   .footer li{
     text-align: center;
 }
-
+/*block change colour when cursor is hovered over*/
 .footer a:hover {
     background-color:#2f2626;
 
 }
 
+/*styling of text in the footer to be underlined, to be center and to be white with a diffrent font */
 .footer p {
     text-align: center;
     text-decoration: underline;
